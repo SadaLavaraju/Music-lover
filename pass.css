@@ -1,0 +1,124 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  body{
+      display:flex;
+      min-height: 80vh;
+      align-items: center;
+      justify-content: center;
+      background-color: #000000;
+      background-image:  url("thumb-1920-357683.jpg");
+  }
+  @media screen and (min-width: 720px) {
+    #para{
+      align-items: center;
+      position:absolute;
+      color:green;
+      margin-bottom: -32%;
+    }
+  
+  }
+  #pass{
+    position: absolute;
+    margin-top: -115px;
+    font-size: 16px;
+    background: transparent;
+    color: green;
+    border-color: white;
+    padding: 3px 5px;
+    text-align: center;
+  }
+  #button{
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    margin-top: -30px;
+    padding: 3px 4px;
+    box-sizing: border-box;
+    border-radius:1px
+  }
+  @import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+  
+  #my life for you{
+     position: absolute;
+     margin-top: -320px;
+     font-size: 35px;
+  }
+  .text-container > span {
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+  }
+  
+    /* @keyframes glow {
+    0%, 100% {
+      color: gold;
+      text-shadow: 0 0 10px rgb(231, 169, 15), 0 0 50px rgb(239, 173, 8), 0 0 100px rgb(232, 169, 11);
+    } 
+    
+    10%, 90% {
+      color: #111;
+      text-shadow: none;
+    }
+  } */
+  .text-container > span {
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes glow {
+    0%, 100% {
+      color : goldenrod;
+      text-shadow: 0 0 10px rgb(231, 169, 15), 0 0 50px rgb(239, 173, 8), 0 0 100px rgb(232, 169, 11); 
+    }
+    
+    10%, 90% {
+      color: #111;
+      text-shadow: none;
+    }
+  }
+  
+  .text-container > span:nth-child(2) {
+    animation-delay: 0.25s;
+  }
+  
+  .text-container > span:nth-child(3) {
+    animation-delay: 0.5s;
+  }
+  
+  .text-container > span:nth-child(4) {
+    animation-delay: 0.75s;
+  }
+  
+  .text-container > span:nth-child(5) {
+    animation-delay: 1s;
+  }
+  
+  .text-container > span:nth-child(6) {
+    animation-delay: 1.25s;
+  }
+  
+  .text-container > span:nth-child(7) {
+    animation-delay: 1.5s;
+  }
+  
+  
+  
+  #mylifeforyou{
+    position: absolute;
+    margin-top: -300px;
+    font-size: 40px;
+    word-spacing: 6px;
+  
+  }
+  .text-con > span {
+    color: goldenrod;
+    text-shadow: white;
+  }
+  #nalov{
+    position: absolute;
+    margin-top: -430px;
+    font-size: 40px;
+    word-spacing: 6px;
+  }
