@@ -9,7 +9,7 @@ function message(){
      if(pass.value == ""){
      alert("please enter the password..!");
     }else{
-      if(pass.value =="SVA153"){
+      if(pass.value =="Lava153"){
         location.replace("img.html");
       }else{
         if(pass.value=="jdl "){
